@@ -24,7 +24,7 @@
     <script>
         serviceUrl = "<?= $_ENV["SERVICE_URL"] ?>" + "service";
     </script>
-    <script src="<?= $_ENV["KEYCLOAK_URL"] ?>auth/js/keycloak.js"></script>
+    <script src="<?= $_ENV["KEYCLOAK_URL"] ?>/js/keycloak.js"></script>
     <script src="app.js"></script>
 </head>
 
