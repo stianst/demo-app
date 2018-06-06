@@ -3,7 +3,7 @@ header('Content-Type: application/json');
 
 $config = array(
     'realm' => 'demo',
-    'auth-server-url' => $_ENV['KEYCLOAK_URL'] . 'auth/',
+    'auth-server-url' => $_ENV['KEYCLOAK_URL'],
     'resource' => "app"
 );
 
